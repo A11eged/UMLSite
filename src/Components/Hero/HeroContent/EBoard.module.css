@@ -1,0 +1,40 @@
+/* Header is 1.75 */
+
+.EBoard {
+  margin: 0.5rem;
+}
+
+.executive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.name {
+  font-family: 'Khula', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .position {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+}

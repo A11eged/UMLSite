@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  background-image: url('../../Images/backgroundimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tint {
+  background-blend-mode: multiply;
+  background-color: rgba(58, 98, 211, 0.938);
+}
+
+.chevron {
+  color: var(--white);
+  /* font-size: var(--subHeadingFontSize); */
+  /* align-self: center; */
+  /* justify-self: center; */
+}

@@ -1,0 +1,29 @@
+.heroHeadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.heading {
+  font-size: var(--mainHeaderMobile);
+  color: var(--white);
+  align-self: center;
+  justify-self: center;
+}
+
+.subheading {
+  font-size: var(--subHeaderMobile);
+  color: var(--white);
+  align-self: center;
+  justify-self: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: var(--mainHeaderDesktop);
+    line-height: 3rem;
+  }
+  .subheading {
+    font-size: var(--subHeadingDesktop);
+  }
+}

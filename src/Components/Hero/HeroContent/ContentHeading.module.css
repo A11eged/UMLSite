@@ -1,0 +1,16 @@
+.contentHeading {
+  /* font-size: 1.5rem; */
+  /* font-weight: bold; */
+  /* color: #fff; */
+  text-align: center;
+  margin: 1rem;
+}
+
+.heading {
+  font-size: var(--subHeaderMobile);
+  font-weight: 300;
+  /* color: var(--white); */
+  color: black;
+  text-align: center;
+  margin: 1rem;
+}
