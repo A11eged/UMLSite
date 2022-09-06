@@ -2,15 +2,22 @@
   /* font-size: 1.5rem; */
   /* font-weight: bold; */
   /* color: #fff; */
-  text-align: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  /* margin-top: 0.25rem; */
   margin: 1rem;
 }
 
 .heading {
+  display: flex;
   font-size: var(--subHeaderMobile);
   font-weight: 300;
+  color: var(--navyDark);
+  /* background-color: var(--navyDark); */
   /* color: var(--white); */
-  color: black;
   text-align: center;
-  margin: 1rem;
+  /* margin: 1rem; */
 }

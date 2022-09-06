@@ -1,7 +1,7 @@
-/* Header is 1.75 */
-
+/* Header is 1.75  */
 .EBoard {
-  margin: 0.5rem;
+  /* margin-left: 0.25rem;
+  margin-right: 0.25rem; */
 }
 
 .executive {
@@ -18,23 +18,43 @@
   align-items: center;
 }
 
-.position {
+.name {
+  color: var(--navyDark);
+  /* color: var(--tint); */
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
-.name {
+.position {
   font-family: 'Khula', sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
+  .name {
+    font-size: 0.78rem;
+  }
   .position {
     font-size: 1rem;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 0.8rem;
+  }
+  .position {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .name {
     font-size: 1.2rem;
+  }
+  .position {
+    font-size: 1.25rem;
   }
 }

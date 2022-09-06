@@ -14,7 +14,8 @@
 
 .tint {
   background-blend-mode: multiply;
-  background-color: rgba(58, 98, 211, 0.938);
+  /* background-color: rgba(58, 98, 211, 0.938); */
+  background-color: var(--tint);
 }
 
 .chevron {

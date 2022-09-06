@@ -10,43 +10,81 @@ import midas from '../../Images/Eboard/midas.jpg';
 import sigil from '../../Images/Eboard/sigil.jpg';
 import victor from '../../Images/Eboard/victor.jpg';
 
-const ExecutiveBoard = () => {
+const MBoard = () => {
   const executives = [
     {
-      name: `Kevin 'Vortex' Phan`,
-      position: 'President',
+      name: `John 'SAINT' Tran`,
+      position: 'Community Service',
       image: kevin,
     },
     {
-      name: `Dennis 'SHIFT' Wu`,
-      position: 'VP Internal',
+      name: `Jack 'HEIST' Liu`,
+      position: 'Social',
       image: dennis,
     },
     {
-      name: `Victor 'TALON' Vuong`,
-      position: 'VP External',
+      name: `Jordan 'PROTO' Lee`,
+      position: 'Philanthropy',
       image: victor,
     },
     {
-      name: `Alvin 'Savage' Ko`,
-      position: 'VP Judicial',
+      name: `Wei 'STIM' Liang`,
+      position: 'Alumni',
+      image: victor,
+    },
+    {
+      name: `Dennis 'SHIFT' Wu`,
+      position: 'Brotherhood',
+      image: sigil,
+    },
+    {
+      name: `Steven 'ASCENT' Tan`,
+      position: 'Academic',
+      image: midas,
+    },
+    {
+      name: `XinKai 'WOLF' Lin`,
+      position: 'Webmaster',
       image: alvin,
     },
-
     {
-      name: `Kevin 'SigIL' Sathapornchaisit`,
-      position: 'Secretary',
+      name: `Mon 'Relic' Sayabovorn`,
+      position: 'Fundraiser',
       image: sigil,
     },
     {
       name: `Minh 'Midas' Tran`,
-      position: 'Treasurer',
+      position: 'Formals',
       image: midas,
     },
-
     {
-      name: `Jeffrey 'Clutch' Song`,
-      position: 'Risk Management',
+      name: `Kevin 'Vortex' Phan`,
+      position: 'Formals',
+      image: jeff,
+    },
+    {
+      name: `Dennis 'SHIFT' Wu`,
+      position: 'Rush',
+      image: jeff,
+    },
+    {
+      name: `Kevin 'SigIL' Sathapornchaisit`,
+      position: 'Rush',
+      image: jeff,
+    },
+    {
+      name: `John 'SAINT' Tran`,
+      position: 'Historian',
+      image: jeff,
+    },
+    {
+      name: `Kevin 'SigIL' Sathapornchaisit`,
+      position: 'Graphics',
+      image: jeff,
+    },
+    {
+      name: `John 'SAINT' Tran`,
+      position: 'Graphics',
       image: jeff,
     },
   ];
@@ -115,4 +153,4 @@ const ExecutiveBoard = () => {
   );
 };
 
-export default ExecutiveBoard;
+export default MBoard;
