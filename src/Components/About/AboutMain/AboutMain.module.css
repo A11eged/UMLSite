@@ -1,0 +1,17 @@
+.aboutMain {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../Images/aboutbackgr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 24vh;
+}
+.tint {
+  background-blend-mode: multiply;
+  /* background-color: rgba(58, 98, 211, 0.938); */
+  background-color: var(--tint);
+}
